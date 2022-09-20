@@ -1,0 +1,29 @@
+img {
+  height: 690px;
+  width: 100%;
+}
+.banner {
+  top: 50%;
+  left: 50%;
+  display: grid;
+  grid-column-gap: 50px;
+  position: absolute;
+  grid-template-columns: repeat(2, 50%);
+  transform: translate(-50%, -50%);
+}
+.banner-1,
+.banner-2 {
+  color: #fff;
+}
+.banner-2 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.banner-list {
+  list-style-image: url("../../../assets/list-Icon-large.svg");
+}
+.banner-list li {
+  line-height: 42px;
+  font-weight: bold;
+}
