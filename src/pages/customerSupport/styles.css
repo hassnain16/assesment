@@ -1,0 +1,31 @@
+.customer-support-container {
+  padding: 20px 20%;
+  margin: 40px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.customer-support-title {
+  margin: 0;
+  font-size: 30px;
+  color: #3d4d62;
+  text-align: center;
+}
+.customer-support-carosal {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+.carosal-item {
+  padding: 10px;
+}
+.carosal-item title {
+  font-size: 20px;
+  color: #3d4d62;
+}
+.carosal-description {
+  color: #3d4d62;
+  font-size: 16px;
+}
+#carosal-image {
+  /* width: 280px; */
+  height: 250px;
+}

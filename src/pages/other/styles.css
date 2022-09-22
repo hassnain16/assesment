@@ -1,0 +1,18 @@
+.other-container{
+    display: flex;
+    flex-direction: column;
+}
+.other-section{
+    display:grid;
+    /* grid-gap: 50px; */
+    align-items: center;
+    grid-template-columns: repeat(2,50%);
+}
+.other-right-section{
+    width: 50%;
+    margin-left: 25px;
+}
+.other-section-image{
+    height:550px;
+    width: 100%;
+}

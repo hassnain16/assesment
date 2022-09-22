@@ -1,0 +1,10 @@
+.title-section {
+  display: flex;
+  flex-direction: column;
+}
+.title-bar {
+  background-color: #007e91;
+  width: 65px;
+  height: 3px;
+  margin: 15px 0 10px 10px;
+}

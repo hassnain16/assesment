@@ -1,0 +1,49 @@
+.agents-section {
+  height: 438px;
+  padding: 20px 15%;
+  background-color: #006b6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.agents-section > button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #006b6e;
+  background: #fff;
+}
+.agent-sub-section-container {
+  display: contents;
+}
+.agent-sub-section {
+  display: block;
+  text-align: center;
+}
+.agent-sub-section > h2 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+.agent-sub-section > p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.sub-section-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.agent-title {
+  margin: 0;
+  color: #fff;
+}
+.agent-divider {
+  width: 3px;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 25%;
+}
