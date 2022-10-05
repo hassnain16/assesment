@@ -40,7 +40,7 @@ function CustomerSupport() {
 
   return (
     <div className="customer-support-container">
-      <Title>
+      <Title alignment="center-align">
         <h2 className="customer-support-title">
           Customs Support is a full-service provider for customs services and is
           here to help

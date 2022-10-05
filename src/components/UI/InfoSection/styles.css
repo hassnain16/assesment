@@ -2,11 +2,8 @@
   font: size 16px;
 }
 .left {
-  text-align: left;
-  margin: 30% 0 30% 20px;
+  margin: 0 35% 0 10%;
 }
 .right {
-  
-  text-align: right !important;
-  margin: 30% 20px 30% 0px;
+  margin: 0 10% 0 35%;
 }

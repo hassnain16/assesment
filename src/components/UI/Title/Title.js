@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./styles.css";
-function Title({ children, ...props }) {
+function Title({ children, alignment, ...props }) {
   return (
-    <div className="title-section">
+    <div className={`title-section ${alignment}`}>
       {children}
       <div className="title-bar" />
     </div>

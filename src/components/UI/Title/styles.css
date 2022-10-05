@@ -8,3 +8,9 @@
   height: 3px;
   margin: 15px 0 10px 10px;
 }
+.center-align {
+  align-items: center;
+}
+.right-align {
+  align-items: flex-end;
+}

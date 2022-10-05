@@ -5,9 +5,9 @@
   flex-direction: column;
 }
 .customer-support-title {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 30px;
-  color: #3d4d62;
+  color: var(--lightBlack);
   text-align: center;
 }
 .customer-support-carosal {
@@ -19,10 +19,10 @@
 }
 .carosal-item title {
   font-size: 20px;
-  color: #3d4d62;
+  color: var(--lightBlack);
 }
 .carosal-description {
-  color: #3d4d62;
+  color: var(--lightBlack);
   font-size: 16px;
 }
 #carosal-image {
